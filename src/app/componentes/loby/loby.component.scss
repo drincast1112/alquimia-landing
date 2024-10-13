@@ -1,0 +1,16 @@
+.principal{
+  min-height: 100vh;
+  background-color: #161817;
+  background-image: url('../../../assets/imagenes/fondo-alquimia2.jpg');
+  background-attachment: fixed;
+  --content-width: 75%
+}
+.logo{
+/*   box-shadow: 14px 14px 20px 0 rgba(131, 120, 6, 0.3);
+ */  width: 180px;
+  height: 120px;
+}
+.botonContacto{
+  width: 15vw;
+  height: 7vh;
+}

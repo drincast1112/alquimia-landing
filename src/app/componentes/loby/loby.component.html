@@ -1,0 +1,39 @@
+<div class="principal">
+  <div class="grid">
+    <div class="col-8 col-offset-2">
+      <div class="grid">
+        <div class="col">
+          <img class="logo" src="assets/imagenes/logo.PNG">
+        </div>
+        <div class="col-6 flex justify-content-end flex-wrap">
+          <button pButton (click)="abrirWhatSapp()" link="true" label="Contáctanos Ahora" pRipple icon="pi pi-whatsapp" class="botonContacto"></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-8 col-offset-2">
+      <div class="grid">
+        <div class="col text-white text-5xl">
+            !Empieza tu propio camino como
+          <div class="bg-yellow-600 text-bluegray-900 text-5xl">Modelo Webcam</div>
+            Hoy!
+          <div class="grid">
+            <div class="col-12 text-white text-2xl">
+              <p>
+                En <strong>Alquimia Studio</strong>, buscamos Modelos Webcam para unirse a nuestro equipo dinámico y en constante crecimiento. No necesitas experiencia previa; solo una actitud positiva, carisma y ganas de aprender.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-7">
+          <p-galleria [value]="images" [indicatorsPosition]="position" [showIndicators]="true" [showThumbnails]="false"  [autoPlay]="true" [circular]="true" [responsiveOptions]="responsiveOptions" [numVisible]="5"  [containerStyle]="{ 'max-width': '100%'}">
+            <ng-template pTemplate="item" let-item>
+                <img [src]="item.itemImageSrc" style="width: 100%;" />
+            </ng-template>
+        </p-galleria>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
