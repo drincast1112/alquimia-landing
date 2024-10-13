@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LobyComponent } from '../../src/app/componentes/loby/loby.component';
+import { LobyComponent } from './componentes/loby/loby.component';
 import { LandingComponent } from './componentes/landing/landing.component';
 
 const routes: Routes = [
