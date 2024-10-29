@@ -5,7 +5,8 @@ import { LandingComponent } from './componentes/landing/landing.component';
 
 const routes: Routes = [
  /*  {path:"alquimia",component: LobyComponent}, */
-  {path:"landing",component: LandingComponent}
+  {path:"landing",component: LandingComponent},
+  {path:"",component: LandingComponent}
 ];
 
 @NgModule({
