@@ -32,7 +32,7 @@ import { LandingComponent } from './componentes/landing/landing.component';
     FormsModule, ReactiveFormsModule,
     ButtonModule
   ],
-  providers: [{provide: LocationStrategy,useClass: HashLocationStrategy}, PhotoService],
+  providers: [ PhotoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
