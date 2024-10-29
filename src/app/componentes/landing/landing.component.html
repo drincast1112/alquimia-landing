@@ -3,7 +3,7 @@
     <div class="os-content" style="padding: 0px; height: 100%; width: 100%;">
       <div class="bee-page-container">
         <div class="bee-row bee-row-1">
-          <div class="bee-row-content">
+          <div [class]="claseContenedor">
             <div class="bee-col bee-col-1 bee-col-w2">
               <div class="bee-block bee-block-2 bee-image"><a href="https://wa.link/f5kmdb" target="_blank"><img
                     class="bee-center bee-autowidth"
@@ -15,7 +15,7 @@
                 <div class="spacer" style="height:0px;"></div>
               </div>
             </div>
-            <div class="bee-col bee-col-3 bee-col-w6" style="text-align: end;">
+            <div class="bee-col bee-col-3 bee-col-w6" [style]="claseBoton">
               <div class="bee-block bee-block-1 bee-divider">
                 <div class="spacer" style="height:35px;"></div>
               </div>
@@ -36,8 +36,8 @@
           </div>
         </div>
         <div class="bee-row bee-row-2">
-          <div class="bee-row-content">
-            <div class="bee-col bee-col-1 bee-col-w5">
+          <div [class]="claseContenedor">
+            <div [class]="claseTotal">
               <div class="bee-block bee-block-2 bee-heading">
                 <h1
                   style="color:#f2f2f2;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:38px;font-weight:normal;letter-spacing:normal;line-height:120%;text-align:left;margin-top:0;margin-bottom:0;">
@@ -72,7 +72,7 @@
                   class="bee-button-content" href="https://wa.link/f5kmdb" target="_blank"><span
                     style="word-break: break-word; font-size: 16px; line-height: 200%;">Contáctanos</span></a></div>
             </div>
-            <div class="bee-col bee-col-2 bee-col-w7">
+            <div [class]="claseTotal">
               <div class="bee-block bee-block-2 bee-image"><img class="bee-center bee-autowidth"
                   src="assets/imagenes/modelo1.PNG"
                   style="max-width:466px;" alt="Movie Poster Placeholder"></div>

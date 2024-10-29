@@ -67,17 +67,8 @@ body {
   margin: 0 auto;
   display: flex;
 }
-.bee-row-content .bee-col-w4 {
-  flex-basis: 33.3333333333%;
-}
-.bee-row-content .bee-col-w2 {
-  flex-basis: 16.6666666667%;
-}
 .bee-divider, .bee-image {
   overflow: auto;
-}
-.bee-row-content .bee-col-w6 {
-  flex-basis: 50%;
 }
 .bee-button a {
   text-decoration: none;
@@ -108,8 +99,38 @@ a {
 .bee-row, .bee-row-content {
   position: relative;
 }
+.bee-row-content .bee-col-w1 {
+  flex-basis: calc(1 / 12* 100%);
+}
+.bee-row-content .bee-col-w2 {
+  flex-basis: calc(2 / 12* 100%);
+}
+.bee-row-content .bee-col-w3 {
+  flex-basis: calc(3 / 12* 100%);
+}
+.bee-row-content .bee-col-w4 {
+  flex-basis: calc(4 / 12* 100%);
+}
+.bee-row-content .bee-col-w5 {
+  flex-basis: calc(5 / 12* 100%);
+}
+.bee-row-content .bee-col-w6 {
+  flex-basis: calc(6 / 12* 100%);
+}
 .bee-row-content .bee-col-w7 {
-  flex-basis: 58.3333333333%;
+  flex-basis: calc(7 / 12* 100%);
+}
+.bee-row-content .bee-col-w8 {
+  flex-basis: calc(8 / 12* 100%);
+}
+.bee-row-content .bee-col-w9 {
+  flex-basis: calc(9 / 12* 100%);
+}
+.bee-row-content .bee-col-w10 {
+  flex-basis: calc(10 / 12* 100%);
+}
+.bee-row-content .bee-col-w11 {
+  flex-basis: calc(11 / 12* 100%);
 }
 .bee-row-content .bee-col-w12 {
   flex-basis: 100%;
@@ -117,9 +138,6 @@ a {
 .bee-row-6 .bee-col-2, .bee-row-7 .bee-col-2 {
   padding-bottom: 5px;
   padding-top: 5px;
-}
-.bee-row-content .bee-col-w5 {
-  flex-basis: 41.6666666667%;
 }
 .bee-row-7 .bee-col-2 .bee-block-1 {
   text-align: center;
