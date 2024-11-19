@@ -18,7 +18,7 @@ export class LandingComponent implements OnInit {
 
   }
   ngOnInit(){
-    if(navigator.userAgent.match(/iPhone|iPod/i)){
+    if(navigator.userAgent.match(/iPhone|Android|IEMobile|BlackBerry|iPod/i)){
       this.celular = true;
       this.claseTotal = "bee-col bee-col-2 bee-col-w12";
       this.claseContenedor = "";
